@@ -5,7 +5,7 @@ import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import Profile from "./pages/Profile";
 import Posts from "./pages/Posts";
-
+import Directory from "./pages/Directory";
 
 
 function App() {
@@ -16,6 +16,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/directory" element={<Directory />} />
         <Route path="/posts" element={<Posts />} />
       </Routes>
     </BrowserRouter>
